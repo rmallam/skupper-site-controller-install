@@ -21,8 +21,11 @@ if you want to override them with your own container image registry.  Copy the i
 ```
 
 
-To deploy skupper,  run the below command.
+To deploy skupper,  run the below commands.
 
+```
+oc apply -f skupper-site.yaml
+```
 
 ```
 oc apply -f site-controller.yaml
